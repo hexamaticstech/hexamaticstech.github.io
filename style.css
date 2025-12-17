@@ -19,8 +19,23 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
     font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        height: 32px;
+    }
 }
 
 .nav-links a {
